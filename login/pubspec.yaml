@@ -1,0 +1,41 @@
+name: login
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+
+  # Image picker for edit profile
+  image_picker: ^1.1.2
+  flutter_svg: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/svg/
+
+  fonts:
+    - family: default
+      fonts:
+        - asset: lib/assets/fonts/Inter_18pt-Regular.ttf
+          weight: 400
